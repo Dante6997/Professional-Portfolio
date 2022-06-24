@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+    background-color: gainsboro;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    padding: 10px;
+    background-color: gainsboro;
+    border: 5px solid black;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header a {
+    color: gainsboro;
+    text-decoration: underline;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav {
+    margin: 20px;
+}
+
+header nav ul li a {
+    margin: 20px 20px 0 0;
+    padding: 8px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+footer {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-list {
+    width: 60%;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+footer ul li {
+    font-weight: bold;
+}
+
+footer ul li a {
+    color: black;
+    padding: 8px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url("../images/hero\ pic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero h3 {
+    text-align: right;
+    color: black;
+    background-color: gainsboro;
+    justify-content: end;
+    display: flex;
+    font-size: 35px;
+}
+
+.section-title {
+    border-right: 5px solid black;
+    text-align: right;
+    padding-right: 40px;
+    min-height: 100%;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.section-title h2 {
+    font-size: 48px;
+}
+
+.first {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.first p {
+    padding: 0 30px;
+    font-size: 20px;
+    width: 90%;
+    line-height: 1.5;
+}
+
+.second {
+    display: flex;
+    background-color: gainsboro;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.second h2 {
+    color: gainsboro;
+}
+
+.work-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.work-grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.assignment {
+    display: flex;
+    color: black;
+    border: solid;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.run-buddy {
+    grid-column: 1/3;
+    grid-row: span 2;
+    background-color: blue;
+}
+
+.code-refactor {
+    background-position: 50% 15%;
+    background-color: yellow;
+}
+
+.password-generator {
+    background-position: 60% 50%;
+    background-color: yellowgreen;
+}
+
+.code-quiz {
+    background-color: blue;
+}
+
+.assignment5 {
+    background-color: blue;
+}
+
+.work-label {
+    background-color: gainsboro;
+    color: darkcyan;
+    padding: 10px;
+}
